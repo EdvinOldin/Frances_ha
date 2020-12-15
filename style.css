@@ -1,0 +1,198 @@
+/* Don't change */
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Whole page */
+body {
+  background-color:#ffa3665b; 
+}
+
+  /* Center all on page */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+/* All images */
+img {
+  object-fit: contain;
+}
+
+/* Movie background */
+.movie-background {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 0px;
+  background-image: url(https://images.newrepublic.com/2291c72e2a4fc388d40dd5a82ef5a3a72b27baf8.jpeg?auto=compress&w=1400&ar=3%3A2&fit=crop&crop=faces&q=65&fm=jpg&ixlib=react-9.0.2);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Content on movie background */
+.movie-background .container {
+  background-color:rgba(233, 64, 100, 0.781);
+  padding: 75px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  display: flex;
+}
+
+/* Cover */
+.movie-background .container .cover img {
+  width: 230px;
+  padding-left: 30px;
+}
+
+/* Content */
+.movie-background .container .content {
+  padding-left: 30px;
+}
+
+/* Paragraph only in movie background */
+.movie-background .container .content p {
+  color: #ffffff;
+  margin-top: -30px;
+  font-size: 20px;
+  width: 1000px;
+}
+ 
+/* Links */
+.links img {
+  width: 150px;
+  padding-left: 75px;
+  padding-top: 30px;
+  margin-bottom: -78px;
+}
+
+/* Links2 */
+.links2 img {
+  width: 150px;
+  padding-left: 250px;
+}
+
+
+/* Main character */
+.main-character {
+  display: flex;
+  top: 900px;
+  left: 100px;
+  right: 100px;
+  position: absolute;
+}
+.main-character img {
+  width: 400px;
+  padding-left: 0px;
+}
+.main-character h2 {
+  padding-left: 30px;
+}
+.main-character h3 {
+  padding-left: 30px;
+}
+.main-character p {
+  padding-left: 30px;
+}
+
+/* Director */
+.director {
+  display: flex;
+  top: 1500px;
+  left: 100px;
+  right: 100px;
+  position: absolute;
+}
+.director img {
+ width: 400px;
+ padding-left: 0px;
+ padding-bottom: 30px;
+}
+.director h2 {
+  padding-left: 30px;
+}
+.director h3 {
+  padding-left: 30px;
+}
+.director p {
+  padding-left: 30px;
+}
+
+/* Rating */
+.rating {
+  display: flex;
+  align-items: baseline;
+}
+
+/* Rating image */
+.rating img {
+  width: 40px !important; 
+}
+
+/* Rating title */
+.rating h4 {
+  color: #ffa266;
+  font-size: 20px;
+  font-family: 'Fanwood Text';
+  margin-top: -13px;
+}
+
+.rating .big {
+  color: #ffa266;
+  font-size: 20px;
+  font-family: 'Fanwood Text';
+}
+
+
+/* Typography */
+h1 {
+  color: white;
+  font-family: 'Fanwood Text';
+  font-size: 60px;
+  font-weight: lighter;
+}
+.main-character h2 {
+  color: rgba(233, 64, 101, 0.89);
+  font-family: 'Fanwood Text';
+  font-size: 40px;
+}
+.main-character h3 {
+  color: rgba(233, 64, 101, 0.89);
+  font-family: 'Fanwood Text';
+  font-size: 20px;
+  font-weight: bold;
+}
+.main-character p {
+  color: black;
+  font-family: 'Fanwood Text';
+  font-size: 20px;
+  margin-top: -10px;
+}
+.director h2 {
+  color: rgba(233, 64, 101, 0.89);;
+  font-family: 'Fanwood Text';
+  font-size: 40px;
+}
+.director h3 {
+  color: rgba(233, 64, 101, 0.89);;
+  font-family: 'Fanwood Text';
+  font-size: 20px;
+  font-weight: bold;
+}
+.director p {
+  color: black;
+  font-family: 'Fanwood Text';
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+
+.year {
+  color: #ffa266;
+}
